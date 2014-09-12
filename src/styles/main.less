@@ -1,0 +1,76 @@
+@import "../../bower_components/bootstrap/less/bootstrap.less";
+
+html, body {
+    font-family: "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+}
+input {
+    font-family: "HelveticaNeue-Light", 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+}
+.row {
+	 margin-left: 0; 
+	 margin-right: 0; 
+}
+
+form {
+	h1 {
+		text-align: center;
+	}
+
+	input {
+		margin-top: 20px;
+	}
+
+	button {
+		margin-top: 30px;
+	}
+
+}
+
+.button-container{
+	text-align:center;
+}
+
+p.bg-danger {
+	padding:10px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	opacity: 0;
+	text-align: center;
+
+	min-height: 45px;
+
+	&.show {
+		opacity: 1;
+
+		-webkit-transition: 1000ms linear all;
+		-moz-transition: 1000ms linear all;
+		-o-transition: 1000ms linear all;
+		transition: 1000ms linear all;
+	}
+}
+
+.login-container {
+	position: absolute;
+	width: 360px;
+	top: 150px;
+	left: 50%;
+	margin-left: -180px;
+	padding-bottom: 40px;
+}	
+
+
+.location {
+	dt {
+		font-weight: 200;
+		color: #808080;
+	}
+}
+
+.map {
+	height: 400px;
+	margin-bottom: 30px;
+}
