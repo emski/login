@@ -1,0 +1,26 @@
+
+<div ng-controller="loginController">
+  <div class="login-container well well-sm"> 
+    <form>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>App Login</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p ng-class="{show:!!isError}" class="bg-danger">{{errorMessage}}</p>
+        </div>
+        <div class="col-md-12">
+          <input ng-model="user.id" type="text" placeholder="User" class="form-control"/>
+        </div>
+        <div class="col-md-12">
+          <input ng-model="user.password" type="password" placeholder="Password" class="form-control"/>
+        </div>
+        <div class="col-md-12 button-container">
+          <button ng-click="login()" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+div(ng-controller='loginController')
+
+	.login-container.well.well-sm 
+		form
+			.row
+				.col-md-12
+					h1 App Login
+			.row
+				.col-md-12
+					p.bg-danger(ng-class='{show:!!isError}') {{errorMessage}}
+				.col-md-12
+					input(class="form-control", ng-model='user.id', type="text", placeholder="User")
+				.col-md-12
+					input(class="form-control", ng-model='user.password', type="password", placeholder="Password")
+				.col-md-12.button-container
+					button.btn.btn-primary(ng-click='login()') Login
+
+
