@@ -1,7 +1,7 @@
 host_locator
 ============
 
-This is an Angular.js based web application. It uses Node.js as a backend to serve static resources as well as to perform compiling ceremony using Grunt.js. The responsive presentation is based on Twitter Bootstrap.
+This is an Angular.js based web application. It uses Node.js as a backend to serve static resources as well as to perform coffee and less compiling using Grunt.js. 
 
 # Installation
 
@@ -13,4 +13,4 @@ This is an Angular.js based web application. It uses Node.js as a backend to ser
 
 # Running the application
 
-in bash/console type 'grunt'. This will compile the project and fire up web browser.
+in bash/console type 'grunt'. This will compile the project and fire up web browser. The compiled code will be located in the 'dist' folder
